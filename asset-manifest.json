@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/DTO_PROD/static/css/main.1a6ca5ed.chunk.css",
+    "main.js": "/DTO_PROD/static/js/main.d9a18643.chunk.js",
+    "main.js.map": "/DTO_PROD/static/js/main.d9a18643.chunk.js.map",
+    "runtime-main.js": "/DTO_PROD/static/js/runtime-main.5ad2b19f.js",
+    "runtime-main.js.map": "/DTO_PROD/static/js/runtime-main.5ad2b19f.js.map",
+    "static/js/2.1b9e399f.chunk.js": "/DTO_PROD/static/js/2.1b9e399f.chunk.js",
+    "static/js/2.1b9e399f.chunk.js.map": "/DTO_PROD/static/js/2.1b9e399f.chunk.js.map",
+    "index.html": "/DTO_PROD/index.html",
+    "precache-manifest.9c79a26663b8175d92844482a9d84a7d.js": "/DTO_PROD/precache-manifest.9c79a26663b8175d92844482a9d84a7d.js",
+    "service-worker.js": "/DTO_PROD/service-worker.js",
+    "static/css/main.1a6ca5ed.chunk.css.map": "/DTO_PROD/static/css/main.1a6ca5ed.chunk.css.map",
+    "static/js/2.1b9e399f.chunk.js.LICENSE.txt": "/DTO_PROD/static/js/2.1b9e399f.chunk.js.LICENSE.txt",
+    "static/media/1.svg": "/DTO_PROD/static/media/1.0d9c23a9.svg",
+    "static/media/arrow.svg": "/DTO_PROD/static/media/arrow.89752720.svg",
+    "static/media/arrowOpen.svg": "/DTO_PROD/static/media/arrowOpen.42f04f18.svg",
+    "static/media/arrowSelect.svg": "/DTO_PROD/static/media/arrowSelect.8815ca23.svg",
+    "static/media/avatar.svg": "/DTO_PROD/static/media/avatar.988926a1.svg",
+    "static/media/back.svg": "/DTO_PROD/static/media/back.5f934eb4.svg",
+    "static/media/checked.svg": "/DTO_PROD/static/media/checked.87ccfde3.svg",
+    "static/media/close.svg": "/DTO_PROD/static/media/close.58649b6c.svg",
+    "static/media/info.svg": "/DTO_PROD/static/media/info.f3a9d400.svg",
+    "static/media/logo.png": "/DTO_PROD/static/media/logo.5b9c5f87.png",
+    "static/media/logo.svg": "/DTO_PROD/static/media/logo.63dc2bfa.svg",
+    "static/media/map.svg": "/DTO_PROD/static/media/map.c688dc6a.svg",
+    "static/media/money.svg": "/DTO_PROD/static/media/money.f3feb92c.svg",
+    "static/media/notification.svg": "/DTO_PROD/static/media/notification.a2b07ee1.svg",
+    "static/media/search.svg": "/DTO_PROD/static/media/search.10ed6667.svg",
+    "static/media/time.svg": "/DTO_PROD/static/media/time.c3aa2c80.svg",
+    "static/media/unchecked.svg": "/DTO_PROD/static/media/unchecked.9396ed9a.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ad2b19f.js",
+    "static/js/2.1b9e399f.chunk.js",
+    "static/css/main.1a6ca5ed.chunk.css",
+    "static/js/main.d9a18643.chunk.js"
+  ]
+}
