@@ -1,26 +1,69 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-function App() {
+// logo
+import logo from './logo.png'
+
+// components
+import NavBar from './components/NavBar'
+
+// screens
+import Main from './screens/Main'
+import Second from './screens/Second'
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        <NavBar />
+        {/* A <Switch> looks through its children <Route>s and
+            renders the first one that matches the current URL. */}
+        <Switch>
+          <Route path="/2">
+            <Second />
+          </Route>
+          <Route path="/main">
+            <Main />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
-export default App;
+function Home() {
+  return (
+    <div className="container">
+      <center>
+        <img
+          src={logo}
+          alt="logo"
+          style={{ width: '50%', height: '70%' }}
+        />
+      </center>
+      <center>
+        <button onClick={() => {
+          window.location.href = "/main"
+        }} className="btn"
+          style={{ width: 300, marginTop: 30 }}
+        >Login</button>
+      </center>
+    </div>
+  )
+}
+
+function About() {
+  return <h2>About</h2>;
+}
+
+function Users() {
+  return <h2>Users</h2>;
+}
